@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action 2", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "Replace with your own action 3", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
     }
